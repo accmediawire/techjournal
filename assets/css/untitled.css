@@ -1,0 +1,98 @@
+.text-center {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  font-family: 'Ubuntu';
+}
+
+#mobile-element {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  #mobile-element {
+    display: none;
+    padding: 45px 0;
+  }
+}
+
+.top-bar {
+  padding: 25px 0;
+  padding-left: 1rem;
+}
+
+@media (min-width: 992px) {
+  .top-bar {
+    padding: 45px 0;
+    padding-left: 3.125rem;
+  }
+}
+
+#mainNav {
+  position: absolute;
+  background-color: #f5f6f6;
+  padding: 8px 12px;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding: 2px 16px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a {
+    font-family: 'Changa', sans-serif;
+    color: rgba(0,0,0,0.75);
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-family: 'Changa', sans-serif;
+  color: rgba(0,0,0,0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: rgb(151,67,255);
+    background-color: #fff;
+  }
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+a:focus, a:hover {
+  color: #ffffff;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #000000;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+

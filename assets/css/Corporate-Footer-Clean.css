@@ -1,0 +1,41 @@
+.page-footer {
+  background-color: #000000;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.page-footer h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: changa;
+}
+
+.page-footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 45px;
+  word-break: break-all;
+}
+
+.page-footer .footer-links a {
+  color: #00ccbf;
+  font-size: 15px;
+  font-family: 'Poppins';
+}
+
+.page-footer .footer-links li {
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+
+.page-footer .region a {
+  color: #555;
+  font-size: 11px;
+}
+
+.page-footer .region img {
+  margin-right: 7px;
+}
+
