@@ -159,6 +159,7 @@ hr {
 /* partners */
 
 #partners-1 {
+  margin-top: 3rem;
   padding: 2rem 0;
   background-color: #f7f7f7;
 }
@@ -267,8 +268,8 @@ hr {
   margin-bottom: 5rem;
   width: 80%;
   margin: 0 auto;
-  margin-top: 11rem;
-  margin-bottom: 7rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 992px) {
@@ -283,7 +284,7 @@ hr {
   width: 90%;
   margin: 0 auto;
   font-weight: 200;
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 
 .popular-articles h4 {
@@ -338,28 +339,6 @@ hr {
 }
 
 /* Latest stories */
-
-.latest-stories {
-  margin: 1.5rem;
-  margin-top: 3rem;
-}
-
-@media (min-width: 992px) {
-  .latest-stories {
-    margin: 10rem;
-  }
-}
-
-.latest-stories h2 {
-  font-size: 32px;
-  margin-bottom: 3rem;
-}
-
-@media (min-width: 992px) {
-  .latest-stories h2 {
-    font-size: 42px;
-  }
-}
 
 .latest-stories h4 {
   font-size: 1.2rem;
@@ -416,5 +395,68 @@ h3 {
     margin: 1rem;
     display: none;
   }
+}
+
+/* legal */
+
+#privacy {
+  margin: 3rem 0;
+}
+
+#privacy h1 {
+  margin: 2rem 0;
+}
+
+#privacy p {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: rgba(51,51,51,0.95);
+  font-family: 'Jost';
+  font-size: 18px;
+}
+
+#privacy h2 {
+  font-size: 22px;
+  color: rgba(51,51,51,0.5);
+  font-family: 'Jost';
+}
+
+#privacy h3 {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Jost';
+}
+
+#privacy a:focus, a:hover {
+  color: #2cdd9b;
+}
+
+#privacy .left-nav {
+  position: sticky;
+  top: 140px;
+  font-family: 'Jost';
+}
+
+#privacy .desktop-only {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  #privacy .desktop-only {
+    display: block;
+  }
+}
+
+#privacy li {
+  font-size: 20px;
+  font-family: 'Jost';
+  padding-bottom: 5px;
+}
+
+#privacy .left-nav-link {
+  border-bottom: 1px solid #c5c5c5;
+  padding: 7px 0;
+  font-size: 15px;
+  font-weight: 500;
 }
 

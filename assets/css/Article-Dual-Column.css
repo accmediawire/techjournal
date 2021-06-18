@@ -2,7 +2,7 @@
   color: #000;
   font-family: 'Lora', serif;
   font-size: 15px;
-  padding: 0 1rem;
+  padding: 5rem 1rem;
 }
 
 @media (min-width: 992px) {
@@ -205,15 +205,14 @@
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Ubuntu';
   color: #000;
 }
 
 p {
-  line-height: 1.5;
-  margin: 30px 0;
+  margin: 20px 0;
   color: #505666;
 }
 
