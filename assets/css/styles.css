@@ -1,304 +1,3 @@
-#mainNav {
-  position: absolute;
-  background-color: #f5f6f6;
-  padding: 8px 12px;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding: 5px 16px;
-  }
-}
-
-@media only screen and (min-width:992px) {
-  #mainNav .navbar-nav > li.nav-item > a {
-    font-family: 'Changa', sans-serif;
-    color: rgba(0,0,0,0.75);
-    font-size: 15px;
-    font-weight: 500;
-  }
-}
-
-#mainNav .navbar-nav > li.nav-item > a {
-  font-family: 'Changa', sans-serif;
-  color: rgba(0,0,0,0.5);
-  font-size: 16px;
-  font-weight: 400;
-}
-
-@media only screen and (min-width:992px) {
-  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-    color: rgb(151,67,255);
-    background-color: #fff;
-  }
-}
-
-hr {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(255,255,255,0.4);
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 10rem;
-  padding: .5rem 0;
-  margin: .125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
-  list-style: none;
-  background-color: #000000;
-  background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
-  border-radius: .25rem;
-}
-
-#advertise-grid .btn {
-  background-color: #9d0e7d;
-  font-size: 15px;
-  padding: 10px 25px;
-  border-radius: 50px;
-  font-family: 'Ubuntu';
-  font-weight: 400;
-  border-color: rgba(255,255,255,0);
-}
-
-#advertise-grid .div-grid {
-  padding: 0 1rem;
-}
-
-#advertise-grid .img-fluid {
-  border-radius: 20px;
-}
-
-#advertise-grid {
-  padding: 5rem 1rem;
-  background: #000000;
-  color: rgb(255,255,255);
-  font-size: 15px;
-  font-family: 'Ubuntu';
-}
-
-@media (min-width: 1200px) {
-  #advertise-grid {
-    padding: 10rem;
-    padding-bottom: 7rem;
-    background: #000000;
-    color: rgb(255,255,255);
-    font-size: 15px;
-    font-family: 'Ubuntu';
-  }
-}
-
-#advertise-2 .text-1 {
-  font-family: 'Ubuntu';
-  padding: 1rem;
-  padding-bottom: 0;
-  font-size: 16px;
-}
-
-@media (min-width: 992px) {
-  #advertise-2 .text-1 {
-    padding: 10rem 8rem;
-    padding-bottom: 0;
-  }
-}
-
-.col-sm-12.col-md-6.mobile-element {
-  display: none;
-}
-
-@media (min-width: 1200px) {
-  .col-sm-12.col-md-6.mobile-element {
-    display: block;
-  }
-}
-
-#advertise-3 {
-  margin: 3rem .5rem;
-}
-
-@media (min-width: 992px) {
-  #advertise-3 {
-    margin: 5rem 3rem;
-  }
-}
-
-#advertise-3 h3 {
-  font-size: 32px;
-  color: #000;
-  text-align: left;
-}
-
-@media (min-width: 992px) {
-  #advertise-3 h3 {
-    font-size: 62px;
-    color: #000;
-    text-align: left;
-  }
-}
-
-.brands {
-  color: #313437;
-  background-color: #fff;
-}
-
-.brands img {
-  display: inline-block;
-  margin: 10px;
-  vertical-align: middle;
-}
-
-/* partners */
-
-#partners-1 {
-  margin-top: 3rem;
-  padding: 2rem 0;
-  background-color: #f7f7f7;
-}
-
-#partners-1 .jumbotron.text-center {
-  background-color: rgba(247,247,247,0);
-}
-
-.jumbotron h5 {
-  font-weight: 400;
-  font-family: 'Ubuntu';
-  font-size: 15px;
-  text-transform: uppercase;
-  color: var(--info);
-}
-
-#partners-1 h2 {
-  font-size: 32px;
-}
-
-@media (min-width: 1200px) {
-  #partners-1 h2 {
-    font-size: 78px;
-  }
-}
-
-#partners-3 {
-  font-family: 'Ubuntu';
-  text-align: center;
-  font-size: 16px;
-  margin: 1.5rem;
-}
-
-@media (min-width: 992px) {
-  #partners-3 {
-    margin: 8rem;
-  }
-}
-
-#partners-3 h4 {
-  margin-top: 30px;
-  font-family: 'Big Shoulders Stencil Text';
-  letter-spacing: 2px;
-  font-size: 32px;
-}
-
-#partners-3 div {
-  padding: 5px;
-}
-
-#partners-3 h3 {
-  margin-bottom: 2rem;
-  font-size: 30px;
-  color: #000;
-}
-
-@media (min-width: 992px) {
-  #partners-3 h3 {
-    font-size: 40px;
-  }
-}
-
-#say {
-  padding: 1rem;
-  background-color: #00cccc;
-}
-
-@media (min-width: 992px) {
-  #say {
-    padding: 2rem;
-    background-color: #00cccc;
-    text-align: left;
-  }
-}
-
-#say h6 {
-  color: #2b00d7;
-  font-size: 30px;
-  font-family: 'Poppins';
-  margin-top: 8px;
-}
-
-#say .quote {
-  margin-left: 0;
-  background-color: #fff;
-  font-size: 32px;
-  padding: 10px;
-}
-
-@media (min-width: 992px) {
-  #say .quote {
-    margin-left: -15rem;
-    background-color: #fff;
-    font-size: 32px;
-    padding: 10px;
-  }
-}
-
-/* Top-Desktop-element */
-
-.desktop-logo-element {
-  display: none;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 9rem;
-  margin-bottom: 5rem;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-}
-
-@media (min-width: 992px) {
-  .desktop-logo-element {
-    display: block;
-  }
-}
-
-/* POPULAR-ARTICLES-TODAY */
-
-.popular-articles {
-  width: 90%;
-  margin: 0 auto;
-  font-weight: 200;
-  padding: 5rem 0;
-}
-
-.popular-articles h4 {
-  font-weight: 200;
-  font-size: 1.2rem;
-  font-family: 'Poppins';
-  line-height: 28px;
-}
-
-.popular-articles .material-icons {
-  font-size: 32px;
-  color: #fb584b;
-}
-
 /* Work with us */
 
 .work-with-us {
@@ -323,6 +22,7 @@ hr {
 
 .work-with-us h2 {
   font-size: 32px;
+  font-family: 'Jost';
 }
 
 @media (min-width: 992px) {
@@ -338,125 +38,90 @@ hr {
   grid-gap: 10px;
 }
 
-/* Latest stories */
+/* NAV */
 
-.latest-stories h4 {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  font-weight: 500;
+@media only screen and (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a {
+    font-family: 'Changa', sans-serif;
+    color: rgba(0,0,0,0.75);
+    font-size: 15px;
+    font-weight: 500;
+  }
 }
 
-/* Advertise-Page */
-
-.advertise {
-  display: grid;
-  grid-template-rows: 450px 450px;
-  grid-template-columns: repeat(2, 1fr);
+#mainNav .navbar-nav > li.nav-item > a {
+  font-family: 'Changa', sans-serif;
+  color: rgba(0,0,0,0.5);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 25px;
 }
 
-h3 {
+@media only screen and (min-width:992px) {
+  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+    color: rgb(151,67,255);
+    background-color: #fff;
+  }
 }
 
-.ad-1 {
-  padding: 3.5rem;
-  padding-top: 5rem;
-  font-family: 'Ubuntu';
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #000000;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
 }
 
-.ad-1 h3 {
-  font-size: 32px;
+.dropdown-item {
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.navbar-light .navbar-toggler {
+  color: #2cdd9b;
+  border-color: rgba(0,0,0,0);
+}
+
+#mainNav {
+  padding: 8px 16px;
 }
 
 @media (min-width: 992px) {
-  .ad-1 h3 {
-    font-size: 42px;
+  #mainNav {
+    padding: 5px 25px;
   }
 }
 
-/* Mobile-element */
+/* Top-Desktop-element */
 
-#advertise-desktop {
+.desktop-logo-element {
   display: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
-@media (min-width: 768px) {
-  #advertise-desktop {
+@media (min-width: 992px) {
+  .desktop-logo-element {
     display: block;
   }
-}
-
-.advertise-mobile {
-  margin: 1rem;
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .advertise-mobile {
-    margin: 1rem;
-    display: none;
-  }
-}
-
-/* legal */
-
-#privacy {
-  margin: 3rem 0;
-}
-
-#privacy h1 {
-  margin: 2rem 0;
-}
-
-#privacy p {
-  margin-bottom: 30px;
-  margin-top: 10px;
-  color: rgba(51,51,51,0.95);
-  font-family: 'Jost';
-  font-size: 18px;
-}
-
-#privacy h2 {
-  font-size: 22px;
-  color: rgba(51,51,51,0.5);
-  font-family: 'Jost';
-}
-
-#privacy h3 {
-  font-size: 24px;
-  color: #333;
-  font-family: 'Jost';
-}
-
-#privacy a:focus, a:hover {
-  color: #2cdd9b;
-}
-
-#privacy .left-nav {
-  position: sticky;
-  top: 140px;
-  font-family: 'Jost';
-}
-
-#privacy .desktop-only {
-  display: none;
-}
-
-@media (min-width: 1200px) {
-  #privacy .desktop-only {
-    display: block;
-  }
-}
-
-#privacy li {
-  font-size: 20px;
-  font-family: 'Jost';
-  padding-bottom: 5px;
-}
-
-#privacy .left-nav-link {
-  border-bottom: 1px solid #c5c5c5;
-  padding: 7px 0;
-  font-size: 15px;
-  font-weight: 500;
 }
 

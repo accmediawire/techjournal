@@ -39,3 +39,46 @@
   margin-right: 7px;
 }
 
+.footer-inner {
+  padding: 0 1rem;
+}
+
+@media (min-width: 992px) {
+  .footer-inner {
+    padding: 0 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-footer {
+    margin-bottom: 100px;
+  }
+}
+
+.logo-footer {
+  margin-bottom: 0;
+}
+
+.page-footer a:hover {
+  color: #2cdd9b;
+}
+
+.page-footer hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+.page-footer p {
+  margin: 20px 0;
+  color: #505666;
+}
+
+.footer-social {
+  color: rgba(255,255,255,0.65);
+  font-size: 30px;
+  margin-right: 16px;
+  margin-left: 8px;
+}
+
